@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdSrvDeploymentApp", "TelerikBlazorApp1\IdSrvDeploymentApp.csproj", "{3A5C0EDB-9987-4AB9-9531-855DACA1F3AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdSrvDeploymentApp", "IdSrvDeploymentApp\IdSrvDeploymentApp.csproj", "{3A5C0EDB-9987-4AB9-9531-855DACA1F3AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
