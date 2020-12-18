@@ -14,8 +14,10 @@ namespace IdSrvDeploymentApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUrls("http://localhost:58417/", "https://localhost:44376/");
                     webBuilder.UseStaticWebAssets();
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseIISIntegration();
                 });
     }
 }
